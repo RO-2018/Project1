@@ -1,0 +1,30 @@
+<MyLayout>:
+    ti_fp:ti_fp
+    ti_cp:ti_cp
+    ti_cper:ti_cper
+    orientation:"vertical"
+    TextInput:
+        id:ti_fp
+        hint_text:"Please Enter FP"
+        multiline:False
+        font_size:22
+        size_hint:"1","0.1"
+    TextInput:
+        id:ti_cp
+        hint_text:"Please Enter CP"
+        multiline:False
+        font_size:22
+        size_hint:"1","0.1"
+    Button:
+        text:"Calculate"
+        font_size:30
+        size_hint:"1","0.3"
+        background_color:138, 198, 22, 0.8
+        color: (0,0,0,1)
+        on_press:root.click()
+    TextInput:
+        id:ti_cper
+        hint_text:"CPer"
+        multiline:False
+        font_size:40
+        size_hint:"1","0.1"
